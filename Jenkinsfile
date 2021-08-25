@@ -1,6 +1,6 @@
 node {
 stage("scm"){
-git 'https://github.com/ghanigreen/maven_demo.git'
+git 'https://github.com/shyamnath/maven_demo.git'
 }
 stage("unittest"){
 sh 'mvn test'
